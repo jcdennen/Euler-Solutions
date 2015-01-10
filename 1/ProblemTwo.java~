@@ -1,0 +1,15 @@
+/* ProblemTwo.java
+ * 
+ * @author: Jeremy Dennen
+ * @version: 1.0
+ */ 
+
+public class ProblemTwo {
+  public static void main(String argv[]) {
+    int sum = 0;
+    for (int a=1, b=2, c=0; c<90; c=a+b, a=b, b=c) {
+      System.out.println(c)
+    }
+    System.out.println("Answer: ");
+  }
+}
